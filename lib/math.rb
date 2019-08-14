@@ -15,9 +15,11 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  math.modulo (num1, num2)
+  quotient = num1 / num2
+  remainder = num1 - (quotient * num2)
+  return remainder
 end
 
 def square_root(num)
-
+  math.sqrt(num)
 end
